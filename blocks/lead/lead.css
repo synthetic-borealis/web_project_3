@@ -1,0 +1,6 @@
+@media screen and (min-width: 1280px) {
+  .lead {
+    margin-top: 58px;
+    border: 1px dashed red;
+  }
+}
