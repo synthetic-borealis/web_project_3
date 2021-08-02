@@ -6,7 +6,8 @@
     margin: 0 auto;
     padding: 0;
 
-    width: 75%;
-    min-width: 984px;
+    /* width: calc(984 / 1280 * 100%); */
+    width: calc(100% - 2 * 148px);
+    border: 1px dashed red;
   }
 }
