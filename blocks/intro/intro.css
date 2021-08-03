@@ -1,9 +1,11 @@
 @media screen and (min-width: 1280px) {
-  .lead {
-    margin: 58px auto 0;
+  .intro {
+    margin: 92px auto 0 148px;
+    width: 690px;
+    min-height: 569px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    justify-items: flex-start;
+    border: 1px dashed red;
   }
 }
