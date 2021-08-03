@@ -1,0 +1,12 @@
+@media screen and (min-width: 1280px) {
+  .place__website {
+    min-width: 484px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px dashed red;
+  }
+}
