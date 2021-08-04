@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   color: white;
+  text-decoration: none;
   transition: opacity .25s linear;
 }
 
@@ -25,12 +26,16 @@
 }
 
 /* header.css */
-@media screen and (min-width: 1280px) {
+.header {
+  padding-top: 34px;
+}
+
+@media screen and (max-width: 320px) {
   .header {
-    padding-top: 34px;
+    padding-top: 20px;
   }
 }
-/* header__container */
+/* header__container.css */
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -39,9 +44,31 @@
   padding: 0;
 }
 
+/* 1280px > width >= 1024 */
+@media screen and (max-width: 1280px) {
+  .header__container {
+    width: calc(100% - 2 * 48px);
+  }
+}
+
+/* 1024px > width > 320px (768px is in this range) */
+@media screen and (max-width: 1024px) {
+  .header__container {
+    width: calc(100% - 2 * 24px);
+  }
+}
+
+/* width <= 320px */
+@media screen and (max-width: 320px) {
+  .header__container {
+    width: calc(100% - 2 * 16px);
+  }
+}
+
+/* width >= 1280px */
 @media screen and (min-width: 1280px) {
   .header__container {
-    max-width: 984px;
+    width: calc(100% - 2 * 148px);
   }
 }
 /* logo */
@@ -55,31 +82,44 @@
   }
 }
 /* header__lang-links.css */
-@media screen and (min-width: 1280px) {
+.header__lang-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  padding-bottom: 4px;
+}
+
+@media screen and (max-width: 320px) {
   .header__lang-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-self: flex-end;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
   }
 }
 /* header__lang-link */
-@media screen and (min-width: 1280px) {
-  .header__lang-link {
-    font-weight: normal;
-    color: white;
-    padding: 0;
-    margin: 0 18px 0 0;
-    font-size: 24px;
-    line-height: 1.17;
-  }
+.header__lang-link {
+  padding-left: 18px;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.17;
+  font-weight: normal;
+  color: white;
+}
 
-  .header__lang-link:last-child {
-    margin-right: 0;
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
   }
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+.header__lang-link_active {
+  text-decoration-line: underline;
 }
 
 /* lead.css */
