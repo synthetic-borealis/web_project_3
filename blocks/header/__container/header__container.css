@@ -1,11 +1,13 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
 @media screen and (min-width: 1280px) {
   .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0;
-
-    width: calc(100% - 2 * 148px);
+    max-width: 984px;
   }
 }
