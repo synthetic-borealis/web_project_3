@@ -586,7 +586,6 @@
 .cover {
   width: 100%;
   margin: 89px auto 0;
-  border: 1px dashed red;
 }
 
 @media screen and (max-width: 320px) {
@@ -691,4 +690,50 @@
 
 .cover__overlay:hover {
   opacity: 0.8;
+}
+
+/* footer.css */
+.footer {
+  margin: 92px 0 24px;
+  border: 1px dashed red;
+}
+/* footer__container.css */
+.footer__container {
+  margin: 0 auto;
+  width: calc(100% - 2 * 48px);
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px dashed red;
+}
+/* footer__links.css */
+.footer__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* footer__link.css */
+.footer__link {
+  margin: 0;
+  padding: 0 18px 0 0;
+  font-size: 16px;
+  line-height: 1.12;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__link:last-child {
+  margin: 0;
+}
+/* footer__copyright.css */
+.footer__copyright {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: normal;
+  text-align: right;
 }
