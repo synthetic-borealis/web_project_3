@@ -1,5 +1,7 @@
 # Project 3: From Portland to Portland
 
+[Click here to visit](https://synthetic-borealis.github.io/web_project_3/)
+
 ## Description
 A responsive one page website about travelling. It was built in HTML5 & CSS.
 Both flexbox and the CSS grid were used for the layout.
