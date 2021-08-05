@@ -9,7 +9,7 @@
   width: calc(100% - 2 * 24px);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .places__container {
     width: 100%;
     gap: 48px;

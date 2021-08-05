@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .intro {
     margin-top: 64px;
     width: calc(100% - 2 * 16px);
