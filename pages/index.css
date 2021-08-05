@@ -45,14 +45,7 @@
   align-items: center;
   margin: 0 auto;
   padding: 0;
-}
-
-
-/* 1024px > width > 320px (768px is in this range) */
-@media screen and (min-width: 320px) {
-  .header__container {
-    width: calc(100% - 2 * 24px);
-  }
+  width: calc(100% - 2 * 24px);
 }
 
 /* width <= 320px */
@@ -75,7 +68,7 @@
     width: calc(100% - 2 * 148px);
   }
 }
-/* logo */
+/* logo.css */
 .logo {
   width: 190px;
 }
@@ -101,7 +94,7 @@
     padding-bottom: 6px;
   }
 }
-/* header__lang-link */
+/* header__lang-link.css */
 .header__lang-link {
   padding-left: 18px;
   margin: 0;
