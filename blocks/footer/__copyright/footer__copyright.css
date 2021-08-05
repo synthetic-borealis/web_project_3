@@ -6,7 +6,7 @@
   font-weight: normal;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 475px) {
   .footer__copyright {
     line-height: 1;
   }

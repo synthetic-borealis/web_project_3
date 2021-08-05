@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 590px) {
   .place__paragraphs-container {
     width: calc(100% - 2 * 16px);
     margin: 0 auto;
