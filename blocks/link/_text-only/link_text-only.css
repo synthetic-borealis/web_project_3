@@ -1,0 +1,7 @@
+.link_text-only {
+  transition: opacity .25s linear;
+}
+
+.link_text-only:hover {
+  opacity: .5;
+}

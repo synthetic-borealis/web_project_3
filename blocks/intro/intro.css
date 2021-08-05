@@ -1,0 +1,27 @@
+.intro {
+  margin: 88px auto 0;
+  width: calc(100% - 2 * 24px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    margin-top: 64px;
+    width: calc(100% - 2 * 16px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    margin-top: 92px;
+    width: calc(100% - 2 * 48px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: calc(100% - 2 * 148px);
+  }
+}
